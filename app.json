@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "ALTER EGO",
+    "slug": "alter-ego",
+    "scheme": "alterego",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": ["expo-router", "expo-font"],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "ALTER EGO — твоё присутствие"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#111111" },
+      "edgeToEdgeEnabled": true
+    }
+  }
+}

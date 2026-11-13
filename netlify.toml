@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build:web"
+  publish = "dist"
+
+[[redirects]]
+  from = "/identity"
+  to = "/identity.html"
+  status = 200
+
+[[redirects]]
+  from = "/conversations"
+  to = "/conversations.html"
+  status = 200
+
+[[redirects]]
+  from = "/catch-up"
+  to = "/catch-up.html"
+  status = 200
